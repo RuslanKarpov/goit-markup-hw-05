@@ -78,7 +78,7 @@ ul {
   background-color: var(--accent-color-text);
 }
 
-.nav-site .link .current {
+.site-nav .link .current {
   color: var(--accent-color);
 }
 .link.current {
@@ -116,6 +116,8 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  transition: color 250ms var(--time);
 }
 .logo-web:hover,
 .logo-web:focus {
@@ -128,6 +130,8 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  transition: color 250ms var(--time);
 }
 .logo-studio:hover,
 .logo-studio:focus {
@@ -155,6 +159,8 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms var(--time);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -191,6 +197,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color 250ms var(--time);
 }
 .contact-nav.item:last-child {
   margin-right: 0;
@@ -410,6 +418,8 @@ ul {
   height: 100%;
   border-radius: 50%;
   color: var(--clients-color);
+
+  transition: color 250ms var(--time), background-color 250ms var(--time);
 }
 
 .social-link:hover,
@@ -444,6 +454,8 @@ ul {
   text-align: center;
   border: 1px solid transparent;
   border-radius: 4px;
+
+  transition: color 250ms var(--time), background-color 250ms var(--time);
 }
 .filter-item:not(:first-child) {
   margin-left: 8px;
@@ -591,6 +603,8 @@ ul {
   border-radius: 4px;
   width: 100%;
   height: 100%;
+
+  transition: color 250ms var(--time), background-color 250ms var(--time);
 }
 
 .client-link:hover,
@@ -607,7 +621,7 @@ ul {
   height: 60px;
   fill: currentColor;
 }
-/* Footer */
+/************************* Footer ********************/
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -632,6 +646,8 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  transition: color 250ms var(--time);
 }
 .f-webstudio {
   font-family: Raleway;
@@ -639,6 +655,8 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  transition: color 250ms var(--time);
 }
 .footer-logo:hover,
 .footer-logo:focus {
@@ -656,6 +674,8 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  transition: color 250ms var(--time);
 }
 .contacts {
   color: rgba(255, 255, 255, 0.6);
@@ -663,6 +683,8 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  transition: color 250ms var(--time);
 }
 
 .footer-item {
@@ -714,6 +736,8 @@ ul {
   border-radius: 50%;
   color: #afb1b8;
   background: rgba(255, 255, 255, 0.1);
+
+  transition: color 250ms var(--time), background-color 250ms var(--time);
 }
 .fsocial-icon {
   fill: var(--accent-color-text);
