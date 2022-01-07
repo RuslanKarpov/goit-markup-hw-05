@@ -248,6 +248,8 @@ ul {
   text-decoration: none;
   border-radius: 4px;
   padding: 10px 32px;
+
+  transition: 250ms var(--time);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -448,9 +450,12 @@ ul {
   padding: 8px 22px;
   border-style: none;
   cursor: pointer;
-  border-radius: 4px;
   color: var(--titles-text-color-first);
   background-color: var(--backing color);
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
