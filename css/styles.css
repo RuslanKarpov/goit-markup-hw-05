@@ -456,7 +456,6 @@ ul {
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
-  border: transparent;
 
   transition: color 250ms var(--time), background-color 250ms var(--time),
     box-shadow color 250ms var(--time);
